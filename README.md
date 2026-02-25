@@ -26,7 +26,6 @@ The GenRoad framework features an interactive Gradio-based web interface that al
 ![](demo_images/tool_weather.png)
 
 
-> **Note:** The source code for the online demo and the generation pipeline will be uploaded soon. Stay tuned!
 
 ---
 
@@ -55,13 +54,5 @@ Our experiments with state-of-the-art open-vocabulary detectors show that GenRoa
 | **GroundingDINO**| 0.3193 | 0.3454 | +8.2% |
 
 
-
----
-
-## 📂 Repository Structure
-
-```text
-├── dataset/             # GenRoad dataset (Images & JSON annotations)
-├── assets/              # Screenshots and demo visuals
-├── README.md            # Project documentation
-└── code/                # Coming Soon...
+>[!NOTE]  
+>**🚀 Codebase & Dataset Release:** The source code for the online demo and the dataset will be uploaded soon. **Stay tuned for the update!**
