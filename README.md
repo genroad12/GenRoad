@@ -65,4 +65,4 @@ Our experiments with state-of-the-art open-vocabulary detectors show that GenRoa
 
 
 >[!NOTE]  
->**🚀 Codebase & Dataset Release:** The source code for the online demo and the dataset will be uploaded soon. **Stay tuned for the update!**
+>**🚀 Codebase Release:** The source code for the online demo will be uploaded soon. **Stay tuned for the update!**
