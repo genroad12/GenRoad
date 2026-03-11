@@ -50,7 +50,6 @@ Click on the images to view them in full resolution.
 | <a href="dataset_samples/sample_night.png"><img src="dataset_samples/sample_night.png" width="300"></a> | <a href="dataset_samples/sample_fog.png"><img src="dataset_samples/sample_fog.png" width="300"></a> | <a href="dataset_samples/sample_dawn.png"><img src="dataset_samples/sample_dawn.png" width="300"></a> |
 | **Night** | **Fog** | **Dawn** |
 
----
 
 ## 📥 Download Dataset
 
