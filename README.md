@@ -75,5 +75,25 @@ Our experiments with state-of-the-art open-vocabulary detectors show that GenRoa
 | **GroundingDINO**| 0.3193 | 0.3454 | +8.2% |
 
 
->[!NOTE]  
->**🚀 Codebase Release:** The source code for the online demo will be uploaded soon. **Stay tuned for the update!**
+## Repository components
+
+- `GenRoad_dataset/`: dataset release resources
+- [`genroad_framework/`](genroad_framework/): interactive tool for object
+  insertion, SAM-based harmonization, annotation review, and weather
+  transformation
+
+## Documentation
+
+- [GenRoad Framework](genroad_framework/README.md)
+- [Quick start](genroad_framework/docs/QUICK_START.md)
+- [GUI guide](genroad_framework/docs/GUI_GUIDE.md)
+- [Paper and dataset repository](https://github.com/sahibinden/GenRoad)
+
+## License and project policies
+
+- [Apache-2.0 license](LICENSE)
+- [Contributing guide](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+- [Citation metadata](CITATION.cff)
+
+
