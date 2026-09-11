@@ -1,0 +1,87 @@
+# GenRoad Framework configuration template.
+#
+# Copy this file to configs/config.yaml and adjust the paths and model
+# settings for your machine. config.yaml is intentionally ignored by Git.
+
+paths:
+  project_root: ""
+  data_root: "./data"
+  output_root: "./output"
+  models_root: "./models"
+  gui:
+    default_image_folder: ""
+    default_output_folder: ""
+
+models:
+  inpainting:
+    model_id: "stabilityai/stable-diffusion-2-inpainting"
+    device: "cuda"
+    dtype: "float16"
+    num_inference_steps: 50
+    guidance_scale: 15.0
+    harmonization:
+      enabled: true
+      method: "combined"
+      strength: 0.7
+      feather_pixels: 50
+
+  scene_transform:
+    # CosXL Edit is distributed separately by its model authors.
+    model_path: "./models/cosxl_edit.safetensors"
+    base_model: "stabilityai/stable-diffusion-xl-base-1.0"
+    device: "cuda"
+    torch_dtype: "float16"
+
+  sam:
+    model_variant: "vit-base"
+    model_id: "facebook/sam-vit-base"
+    device: "cuda"
+    dtype: "float32"
+    bbox_expand_percent: 0.05
+    crop_size: 512
+    crop_padding: 100
+
+gui:
+  server:
+    host: "127.0.0.1"
+    port: 7860
+    share: false
+  defaults:
+    inpainting_steps: 50
+    inpainting_guidance: 15.0
+    weather_steps: 30
+    weather_guidance: 7.5
+    weather_img_guidance: 1.5
+    default_weather_effects: ["snow", "rain", "fog", "night", "dawn"]
+
+scene_transform:
+  common:
+    num_inference_steps: 30
+    guidance_scale: 7.5
+    image_guidance_scale: 1.5
+  weather_configs:
+    snow:
+      prompt: "Change this scene to a snowy winter day, photo-realistic."
+    rain:
+      prompt: "Change this scene to a rainy day, photo-realistic."
+    fog:
+      prompt: "Change this scene to a foggy day, photo-realistic."
+    night:
+      prompt: "Change this scene to a realistic night scene with lights on."
+    dawn:
+      prompt: "Change this scene to a realistic dawn scene."
+    sunny:
+      prompt: "Change this scene to a bright sunny day, photo-realistic."
+    autumn:
+      prompt: "Change this scene to autumn, photo-realistic."
+    spring:
+      prompt: "Change this scene to spring, photo-realistic."
+
+general:
+  device: "cuda"
+  seed: 42
+  output_format: "png"
+  save_intermediate: false
+
+output:
+  save_metadata: true

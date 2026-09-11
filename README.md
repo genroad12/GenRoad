@@ -26,6 +26,27 @@ The GenRoad framework features an interactive Gradio-based web interface that al
 ![](demo_images/tool_weather.png)
 
 
+## Repository components
+
+- `GenRoad_dataset/`: dataset release resources
+- [`genroad_framework/`](genroad_framework/): interactive tool for object
+  insertion, SAM-based harmonization, annotation review, and weather
+  transformation
+
+## Documentation
+
+- [GenRoad Framework](genroad_framework/README.md)
+- [Quick start](genroad_framework/docs/QUICK_START.md)
+- [GUI guide](genroad_framework/docs/GUI_GUIDE.md)
+- [Paper and dataset repository](https://github.com/sahibinden/GenRoad)
+
+## License and project policies
+
+- [Apache-2.0 license](LICENSE)
+- [Contributing guide](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+- [Citation metadata](CITATION.cff)
+
 
 ---
 
@@ -73,27 +94,5 @@ Our experiments with state-of-the-art open-vocabulary detectors show that GenRoa
 | **YOLO-World** | 0.2697 | **0.9043** | **+235.4%** |
 | **OWL-ViT** | 0.2347 | 0.7268 | +209.7% |
 | **GroundingDINO**| 0.3193 | 0.3454 | +8.2% |
-
-
-## Repository components
-
-- `GenRoad_dataset/`: dataset release resources
-- [`genroad_framework/`](genroad_framework/): interactive tool for object
-  insertion, SAM-based harmonization, annotation review, and weather
-  transformation
-
-## Documentation
-
-- [GenRoad Framework](genroad_framework/README.md)
-- [Quick start](genroad_framework/docs/QUICK_START.md)
-- [GUI guide](genroad_framework/docs/GUI_GUIDE.md)
-- [Paper and dataset repository](https://github.com/sahibinden/GenRoad)
-
-## License and project policies
-
-- [Apache-2.0 license](LICENSE)
-- [Contributing guide](CONTRIBUTING.md)
-- [Security policy](SECURITY.md)
-- [Citation metadata](CITATION.cff)
 
 

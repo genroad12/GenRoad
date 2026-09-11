@@ -1,0 +1,22 @@
+# GenRoad Framework runtime dependencies.
+#
+# Install PyTorch separately when a CUDA-specific wheel is required:
+# https://pytorch.org/get-started/locally/
+
+accelerate>=0.25,<2
+diffusers>=0.24,<1
+gradio>=4.0,<6
+huggingface-hub>=0.19,<1
+numpy>=1.24,<3
+opencv-python>=4.7,<5
+Pillow>=9.5,<12
+PyYAML>=6,<7
+scipy>=1.10,<2
+timm>=0.9,<2
+torch>=2.0,<3
+torchvision>=0.15,<1
+transformers>=4.40,<5
+
+# Development and model-free validation:
+# pytest>=8,<9
+# ruff>=0.6,<1

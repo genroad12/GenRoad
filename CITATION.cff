@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "GenRoad: A Generative Framework for Synthesizing Anomalies in Autonomous Driving"
+type: software
+abstract: "GenRoad provides a generative workflow for synthesizing autonomous-driving corner cases and adapting them to adverse environmental conditions."
+repository-code: "https://github.com/sahibinden/GenRoad"
+license: Apache-2.0
+authors:
+  - name: "GenRoad contributors"
+  - name: "Sahibinden Research and Development"
+keywords:
+  - autonomous driving
+  - corner cases
+  - image generation
+  - inpainting
+  - weather transformation
