@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Interactive synthetic anomaly and adverse-scene generation for autonomous driving."
 readme = "README.md"
 requires-python = ">=3.10"
-license = { file = "LICENSE" }
+license = "Apache-2.0"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -1,6 +1,6 @@
 # GenRoad: A Generative Framework for Synthesizing Anomalies in Autonomous Driving
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 GenRoad is a modular, human-in-the-loop framework designed to transform standard autonomous driving images into complex "corner case" scenarios. It enables the injection of 17 different road anomalies into high-resolution scenes and adapts these scenes into 5 diverse environmental conditions (Rain, Snow, Fog, Night, Dawn).
 
